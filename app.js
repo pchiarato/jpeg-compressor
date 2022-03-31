@@ -7,7 +7,7 @@ const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
-const port = 3000;
+const port = 80;
 const app = express();
 const util = require('util');
 app.use(formidable({uploadDir: './src/img/source', multiples: true}));
