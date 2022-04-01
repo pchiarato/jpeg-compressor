@@ -1,7 +1,7 @@
 'use strict';
 const compress_images = require('compress-images');
 const express = require('express');
-const formidable = require('formidable');
+const formidable = require('express-formidable');
 const bodyParser = require('body-parser');
 const process = require('process');
 const cors = require('cors');
