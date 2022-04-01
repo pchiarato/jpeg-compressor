@@ -3,13 +3,15 @@ const compress_images = require('compress-images');
 const express = require('express');
 const formidable = require('express-formidable');
 const bodyParser = require('body-parser');
+const { env } = require('process');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
-const port = 80;
+const port = process.env.port || 3000;
 const app = express();
 const util = require('util');
+
 app.use(formidable({uploadDir: './src/img/source', multiples: true}));
 app.use(cors());
 app.use(bodyParser.json()) // for parsing application/json
