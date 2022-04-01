@@ -92,7 +92,7 @@
     "finalhandler": "^1.1.2",
     "find-up": "^1.1.2",
     "find-versions": "^3.2.0",
-    "formidable": "^1.2.6",
+    "formidable": "^2.0.1",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
     "from2": "^2.3.0",
